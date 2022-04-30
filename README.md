@@ -21,12 +21,12 @@ O programa deve ser compartilhado entre os membros do time: não será aceita ne
 Usar as constantes com 4 algarismos significativos no programa: constante
 de Planck, carga elementar, massa do elétron, constante de Rydberg, etc.
 1) Para um dado valor de n, calcular
-  a. o raio da órbita do elétron,
-  b. velocidade do elétron na órbita,
-  c. comprimento de onda de De Broglie do elétron no nível n,
-  d. a energia cinética no nível n,
-  e. energia potencial no nível n,
-  f. energia total no nível n.
+  <br>a. o raio da órbita do elétron,
+  <br>b. velocidade do elétron na órbita,
+  <br>c. comprimento de onda de De Broglie do elétron no nível n,
+  <br>d. a energia cinética no nível n,
+  <br>e. energia potencial no nível n,
+  <br>f. energia total no nível n.
   
 Atenção aos sinais das energias e n deve ser um número inteiro. Retornar uma mensagem de erro, caso o usuário digite um número não inteiro. Algumas energias podem ser negativas, por ex., no caso de energia de ligação.
 
@@ -39,32 +39,32 @@ Atenção aos sinais das energias e n deve ser um número inteiro. Retornar uma 
 ## Checklist das funções do programa:
 
 1. Entrada do número quântico (n) do átomo de hidrogênio. Calcular:
-  a. rn
-  b. vn
-  c. n
-  d. Kn
-  e. Un
-  f. En
+  <br>a. rn
+  <br>b. vn
+  <br>c. n
+  <br>d. Kn
+  <br>e. Un
+  <br>f. En
   
 2. Entrada do estado ni inicial e estado final nf do elétron no átomo de H. Dependendo se o processo é de decaimento ou excitação, ni pode ser maior ou menor que nf, portanto, cuidado para não retornar valores negativos). Calcular:
-  a. E do fóton absorvido ou emitido
-  b.  do fóton absorvido ou emitido
-  c. f do fóton absorvido ou emitido
+  <br>a. E do fóton absorvido ou emitido
+  <br>b.  do fóton absorvido ou emitido
+  <br>c. f do fóton absorvido ou emitido
   
 3. 
-  i) Entrada do nível ni inicial do elétron no átomo de H e frequência do fóton absorvido.
-  ii) Entrado de ni inicial do elétron no átomo de H e  do fóton absorvido.
+    i) Entrada do nível ni inicial do elétron no átomo de H e frequência do fóton absorvido.
+    <br>ii) Entrado de ni inicial do elétron no átomo de H e  do fóton absorvido.
 
 Calcular:
   a. Nível n após a absorção do fóton (mostrar valor calculado com duas casas decimais e arredondado de n)
 
 4. 
-  i) Entrada da frequência do fóton emitido na transição para o nível
+    i) Entrada da frequência do fóton emitido na transição para o nível
 final nf digitado pelo usuário.
-  iii) Entrada de  do fóton emitido na transição para o nível final nf digitado pelo usuário.
+    <br>iii) Entrada de  do fóton emitido na transição para o nível final nf digitado pelo usuário.
   
   Calcular:
-  b. Nível n antes da emissão do fóton (mostrar valor calculado com duas casas decimais e arredondado de n)
+    b. Nível n antes da emissão do fóton (mostrar valor calculado com duas casas decimais e arredondado de n)
   
   Não é obrigatório que os cálculos estejam organizados na forma mostrada acima. Foi organizado desta forma para servir de checklist. Por funções mínimas: significa que a equipe pode implementar outros recursos que facilitem responder o questionário na parte b da atividade.
 
